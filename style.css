@@ -1,0 +1,317 @@
+html {
+  scroll-behavior: smooth;
+}
+.collapse {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0.1rem grey;
+}
+.content {
+  display: flex;
+  flex-direction: row !important;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.skill {
+  width: 30%;
+  margin: 1rem;
+}
+.skills {
+  margin: 200px 0px !important;
+  height: auto;
+  padding-bottom: 210px !important;
+  margin-bottom: 210px !important;
+}
+.exp-first:hover {
+  transform: scale(1.03);
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s;
+}
+.nav-link:active {
+  color: blue !important;
+}
+.nav-link:hover {
+  background-color: grey;
+}
+#code > button > i:hover {
+  color: black !important;
+}
+#code > button:hover {
+  border: 1px solid black !important;
+}
+.fa-envelope:hover {
+  color: red !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .bio {
+    font-size: 1.1rem !important;
+  }
+  .skill-row {
+    width: 100% !important;
+  }
+  .skill {
+    margin: 0.6rem !important;
+  }
+  #code > button {
+    width: 10vw !important;
+  }
+  .btn-group {
+    margin-left: 25% !important;
+    margin-bottom: 50px !important;
+  }
+  .projects > .post > .exp-first {
+    margin: 0 !important;
+    width: 100% !important;
+    margin-top: 10vh !important;
+  }
+  .projects > .post > .exp-first > .content > .info {
+    width: 70% !important;
+  }
+  .projects > .post > .exp-first > .content > .image {
+    width: 30% !important;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .navbar-nav > li > a {
+    font-size: 0.9rem !important;
+    padding: 0rem 0.3rem !important;
+    margin: 0;
+  }
+  .navbar-nav > li {
+    padding: 0 !important;
+    margin: 0;
+  }
+
+  .headerMax {
+    display: none;
+  }
+  .header2 {
+    display: inline !important;
+    flex: 1;
+    margin: 0px auto !important;
+    text-align: center !important;
+  }
+  .navbar-nav {
+    display: inline !important;
+  }
+  .navbar-nav > li {
+    padding: 0.5rem 0 !important;
+  }
+  .navbar-nav > li > a {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .biography > .content {
+    flex-direction: column !important;
+  }
+  .profile {
+    width: 100% !important;
+  }
+  .profile > img {
+    width: 35% !important;
+  }
+  .bio {
+    font-size: 0.9rem !important;
+    width: 100% !important;
+    margin-top: 25px !important;
+  }
+
+  .nav-link:hover {
+    background-color: rgb(240, 240, 240) !important;
+  }
+  .post > .exp-first {
+    margin: auto !important;
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .exp-first > p {
+    font-size: 0.8rem !important;
+  }
+  .exp-first > span {
+    font-size: 0.8rem !important;
+  }
+  .exp-first > ul > li > p {
+    font-size: 0.8rem !important;
+  }
+  .exp-first > ul > li > ul > li {
+    font-size: 0.7rem !important;
+  }
+  .posts > .heading > p {
+    font-size: 1.4rem !important;
+  }
+  #code > button {
+    width: 14vw !important;
+  }
+  .contact > .heading > p {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects {
+    padding: 20px 10px !important;
+  }
+  .btn-group {
+    width: 100%;
+    margin-left: 2vw !important;
+  }
+  .projects > .post > .exp-first {
+    margin-top: 3vh !important;
+  }
+  .projects > .post > .exp-first > .content {
+    flex-direction: column-reverse !important;
+  }
+  .projects > .post > .exp-first > .content > .info > span {
+    margin: 0 !important;
+  }
+  .projects > .post > .exp-first > .content > .image {
+    height: 100px !important;
+  }
+  .projects > .post > .exp-first > .content > .image > img {
+    height: 100% !important;
+    width: 55vw !important;
+  }
+  .projects > .post > .exp-first > .content > .info {
+    width: 100% !important;
+  }
+  .contact > .heading {
+    margin: auto !important;
+    width: 100% !important;
+  }
+  .contact > .post {
+    margin: auto !important;
+    width: 100% !important;
+  }
+  .contact {
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .profile {
+    width: 100% !important;
+  }
+  .profile > img {
+    width: 45vw !important;
+    height: 45vw;
+  }
+  h3 {
+    font-size: 1.2rem !important;
+  }
+  h2 {
+    font-size: 1.2rem !important;
+  }
+  .skill-row {
+    margin: 0px !important;
+  }
+  .interest h4,
+  .education h4 {
+    font-size: 1.1rem !important;
+    font-weight: 400;
+  }
+  .interest,
+  .education {
+    width: 98% !important;
+    margin: 0 1% !important;
+  }
+  .int-exp {
+    flex-direction: column !important;
+  }
+  .border {
+    display: none !important;
+  }
+
+  .experience {
+    flex-direction: column !important;
+    box-sizing: border-box;
+    width: 100% !important;
+    justify-content: center !important;
+    border: none !important;
+  }
+  .experience > .heading {
+    width: 100%;
+    margin: 0 auto !important;
+  }
+
+  .experience > .experiences {
+    width: 90% !important;
+    margin: auto !important;
+    margin: 0vw 5vw !important;
+  }
+  .exp-first {
+    width: 100% !important;
+    margin: 5vh auto !important;
+  }
+  .space {
+    height: 50px !important;
+  }
+  .grad {
+    font-size: 0.7rem !important;
+    font-weight: 300 !important;
+  }
+  .skills > h2 {
+    padding-top: 20px !important;
+  }
+
+  .posts {
+    height: auto;
+    flex-direction: column;
+    padding: 20px 10px !important;
+  }
+  .posts > .heading {
+    width: 100% !important;
+    margin: auto !important;
+  }
+  .post {
+    width: 100% !important;
+    margin: auto !important;
+  }
+  .post > .exp-first {
+    margin: auto !important;
+    height: auto;
+  }
+
+  .projects {
+    flex-direction: column !important;
+  }
+  .projects > .post > .exp-first > .content > .image {
+    height: 130px !important;
+    width: 100% !important;
+  }
+  .projects > .post > .exp-first > .content > .image > img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .projects > .post > .exp-first {
+    margin: 1vh 2vw !important;
+    width: 96% !important;
+  }
+  #code > button {
+    width: 40vw !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .skill {
+    width: 100%;
+    margin: 2rem 0 !important;
+  }
+  .space {
+    height: 10px !important;
+  }
+  .biography {
+    margin-top: 10px !important;
+    padding: 10px !important;
+  }
+}
